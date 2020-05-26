@@ -1,0 +1,129 @@
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__background/cover__background.css);
+@import url(./__overlay/cover__overlay.css);
+
+.cover{
+    max-width: 1184px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 92px;
+    margin-bottom: 92px;
+
+    }
+
+
+@media screen and (max-width: 1200px) {
+    .cover__background{
+        max-width: 1054px;
+    }   
+    }
+
+@media screen and (max-width: 1030px){
+    .cover{
+        max-width: 1024px;
+      
+    }
+
+    .cover__background{
+        min-width: 1024px;
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .cover {
+        max-width: 768px;
+    }
+
+    .cover__title{
+        font-size: 72px;
+        line-height: 76px;
+    }
+
+    .cover__subtitle{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .cover__background{
+        min-width: 768px;
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+        
+        .cover{
+        max-width: 600px;
+        
+    }
+        .cover__background{
+            min-width: 600px;
+            min-height: 375px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+        
+    .cover{
+    max-width: 500px;
+    
+}
+    .cover__background{
+        min-width: 500px;
+        min-height: 312px;
+    }
+
+    .cover__title{
+        font-size: 52px;
+        line-height: 56px;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    .cover {
+        max-width: 420px;
+    }
+
+    .cover__background{
+        min-width: 420px;
+        min-width: 262px;
+    }
+
+    .cover__title{
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .cover {
+        max-width: 320px;
+        margin-bottom: 64px;
+        margin-top: 64px;
+    }
+
+    .cover__title{
+        font-size: 32px;
+        line-height: 35px;
+        max-width: 280px;
+    }
+
+    .cover__subtitle{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .cover__background{
+        min-width: 320px;
+        min-height: 200px;
+    }
+}
+

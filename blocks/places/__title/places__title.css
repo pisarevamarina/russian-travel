@@ -1,0 +1,8 @@
+.places__title{
+    grid-column: 1;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    margin: 0;
+    max-height: fit-content;
+}
