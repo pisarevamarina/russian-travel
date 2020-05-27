@@ -8,3 +8,48 @@
     .places__place:last-of-type{
         margin-bottom: 0;
     }
+
+    @media screen and (max-width: 1030px) {
+        .places__place{
+            grid-gap: 32px;
+            grid-template-columns: 440px 1fr;
+            padding-left: 48px;
+            padding-right: 48px;
+            margin: 0;
+        }
+    
+    }
+
+    @media screen and (max-width: 780px) {
+        .places__place{
+            grid-gap: 28px;
+            margin-bottom: 72px;
+            grid-template-columns: 340px 1fr;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    }
+
+    @media screen and (max-width: 700px) {
+        .places__place{
+        grid-template-columns: 1fr;
+        }
+    
+    }
+
+    @media screen and (max-width: 450px) {
+        .places__place{
+            grid-template-columns: 1fr;
+        }
+       }
+
+       @media screen and (max-width: 400px) {
+
+        .places__place{
+            grid-gap: 32px;
+            margin-bottom: 48px;
+            grid-template-columns: 1fr;
+            padding: 0;
+    
+        }
+    }

@@ -1,6 +1,14 @@
-.placess__website{
+.places__website{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     margin: 0;
+
+}
+
+@media screen and (max-width: 400px) {
+    .places__website{
+        display: none;
+    }
+
 }

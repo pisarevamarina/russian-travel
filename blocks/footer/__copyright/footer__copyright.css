@@ -3,3 +3,31 @@
     font-size: 14px;
     line-height: 16px;
 }
+
+@media screen and (max-width: 630px) {
+    .footer__copyright{
+        font-size: 10px;
+        line-height: 12px;
+        text-align: end;
+        align-self: flex-end;
+   }
+   
+}
+
+@media screen and (max-width: 500px) {
+    .footer__copyright{
+        align-self: flex-end;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .footer__copyright{
+        margin-top: 48px;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: start;
+        align-self: flex-start;
+        
+    }
+}

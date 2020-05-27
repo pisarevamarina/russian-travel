@@ -10,3 +10,26 @@ line-height: 30px;
 .places__paragraph:last-of-type{
     margin-bottom: 0;
 }
+
+
+@media screen and (max-width: 780px) {
+ 
+    .places__paragraph{
+        font-size: 16px;
+        line-height: 26px;
+        font-size: 18px;
+        line-height: 30px;
+        }
+    }
+
+    @media screen and (max-width: 400px) {
+      .places__paragraph{
+            padding-left: 16px;
+            padding-right: 16px;
+            font-size: 16px;
+            line-height: 26px;
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+    
+    }
