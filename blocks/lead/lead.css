@@ -23,14 +23,16 @@
 @media screen and (max-width: 780px) {
     .lead {
     padding: 0;
-    max-width: 768px;
+    max-width: 780px;
+    margin-left: 0;
+    margin-right: 0;
     }
 }
 
 
 @media screen and (max-width: 340px) {
     .lead {
-        max-width: 320px;
+        max-width: 340px;
 
     }
 }
