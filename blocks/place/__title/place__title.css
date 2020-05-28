@@ -1,4 +1,4 @@
-.places__title{
+.place__title{
     grid-column: 1;
     font-weight: 900;
     font-size: 72px;
@@ -8,14 +8,14 @@
 }
 
 @media screen and (max-width: 780px) { 
-    .places__title{
+    .place__title{
         font-size: 42px;
         line-height: 46px;
     }
 }
 
 @media screen and (max-width: 400px) {
-    .places__title{
+    .place__title{
         padding-left: 16px;
         padding-right: 16px;
     }
