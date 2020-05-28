@@ -1,7 +1,7 @@
 @import url(./__lang-link/header__lang-link.css);
 @import url(./__logo/header__logo.css);
-@import url(././__lang-link/_lang/header__lang-link_lang_ru.css);
-@import url(./__lang-link/_lang/header__lang-link_lang_en.css);
+@import url(./__lang-link/_active/header__lang-link_active.css);
+
 
 .header{
     max-width: 1184px;
@@ -10,6 +10,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+    padding: 0 48px;
     margin-top: 28px;
 }
 
@@ -23,6 +24,8 @@
 @media screen and (max-width: 780px) {
     .header {
     max-width: 720px;
+    padding-left: 24px;
+    padding-right: 24px;
 
     }
 }
