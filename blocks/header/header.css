@@ -1,6 +1,7 @@
 @import url(./__lang-link/header__lang-link.css);
 @import url(./__logo/header__logo.css);
 @import url(./__lang-link/_active/header__lang-link_active.css);
+@import url(./__link-container/header__link-container.css);
 
 
 .header{
@@ -12,6 +13,8 @@
     margin: 0 auto;
     padding: 0 48px;
     margin-top: 28px;
+    display: flex;
+    align-items: flex-end;
 }
 
 @media screen and (max-width: 1030px) {
@@ -33,6 +36,10 @@
 @media screen and (max-width: 340px) {
     .header {
     max-width: 288px;
+    margin-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+
 }
 
 }
